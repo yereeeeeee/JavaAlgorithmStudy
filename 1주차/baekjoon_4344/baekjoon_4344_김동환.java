@@ -31,12 +31,8 @@ public class Main {
 					count++;
 				}
 			}
-			
 			System.out.printf("%.3f%%\n",(count/N)*100);
-			
-	
 		}
 		in.close();
 	}
-	
 }
