@@ -40,15 +40,14 @@
 // }
 
 import java.io.*;
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.StringTokenizer;
+import java.util.*;
 
 
 public class Main {
     static StringBuilder sb = new StringBuilder();
     static Deque<Integer> deque = new ArrayDeque<>();
 // 추가적인 노드 x, 임의접근 효율적. 크기제한, 크기변경 비용
+// <>는 제네릭타입 추론. 
 // ConcurrentLinkedDeque, LinkedBlockingDeque
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
